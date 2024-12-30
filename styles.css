@@ -1,0 +1,37 @@
+img {
+    max-width: 100%; /* Membuat gambar responsif */
+    height: auto; /* Mempertahankan rasio aspek gambar */
+}
+
+body {
+    display: flex; /* Menggunakan Flexbox */
+    justify-content: center; /* Menyusun konten di tengah secara horizontal */
+    align-items: center; /* Menyusun konten di tengah secara vertikal */
+    height: 100vh; /* Mengatur tinggi body menjadi 100% dari viewport */
+    margin: 0; /* Menghapus margin default */
+    background-color: #f0f0f0; /* Warna latar belakang */
+}
+
+form { display: flex; flex-direction: column; 
+    align-items: center;
+     background-color: white;
+      padding: 20px; border-radius: 10px; 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    } input[type="text"], input[type="password"] 
+    { width: 200px;
+     padding: 10px;
+      margin: 10px 0; 
+      border: 1px solid #ccc; 
+      border-radius: 5px; 
+    } button {
+        width: 220px;
+         padding: 10px;
+          background-color: #007bff;
+           color: white; 
+           border: none; 
+           border-radius: 5px; 
+           cursor: pointer; 
+
+        } button:hover {
+             background-color: #0056b3;
+    }
